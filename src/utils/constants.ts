@@ -1,0 +1,33 @@
+import { SpiritType } from '../types/bottle';
+
+export const SPIRIT_TYPES = [
+  { value: SpiritType.Rhum, label: 'Rhum' },
+  { value: SpiritType.Whisky, label: 'Whisky' },
+  { value: SpiritType.Gin, label: 'Gin' },
+  { value: SpiritType.Vodka, label: 'Vodka' },
+  { value: SpiritType.Tequila, label: 'Tequila' },
+  { value: SpiritType.Cognac, label: 'Cognac' },
+  { value: SpiritType.Armagnac, label: 'Armagnac' },
+  { value: SpiritType.Calvados, label: 'Calvados' },
+  { value: SpiritType.EauDeVie, label: 'Eau de Vie' },
+  { value: SpiritType.Absinthe, label: 'Absinthe' },
+  { value: SpiritType.Liqueurs, label: 'Liqueurs' },
+  { value: SpiritType.Pastis, label: 'Pastis' },
+  { value: SpiritType.Schnaps, label: 'Schnaps' },
+  { value: SpiritType.Grappa, label: 'Grappa' },
+  { value: SpiritType.Chartreuse, label: 'Chartreuse' },
+  { value: SpiritType.VinRouge, label: 'Vin Rouge' },
+  { value: SpiritType.VinBlanc, label: 'Vin Blanc' },
+  { value: SpiritType.VinRose, label: 'Vin Rosé' },
+  { value: SpiritType.VinPetillant, label: 'Vin Pétillant' },
+  { value: SpiritType.Champagne, label: 'Champagne' },
+  { value: SpiritType.Prosecco, label: 'Prosecco' },
+  { value: SpiritType.Cava, label: 'Cava' },
+  { value: SpiritType.Biere, label: 'Bière' },
+  { value: SpiritType.Cidre, label: 'Cidre' },
+  { value: SpiritType.Hydromel, label: 'Hydromel' },
+  { value: SpiritType.Sake, label: 'Saké' },
+  { value: SpiritType.Bitter, label: 'Bitter' },
+  { value: SpiritType.Ratafia, label: 'Ratafia' },
+  { value: SpiritType.Limoncello, label: 'Limoncello' }
+] as const;
